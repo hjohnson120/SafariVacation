@@ -51,6 +51,13 @@ namespace SafariVacation
         LocationOfLastSeen = "desert"
       });
       db.SaveChanges();
+
+      // foreach (var animal in SeenAnimals)
+      // {
+      //   Console.Writeline(animal.Species);
+      // } 
+
+
     }
   }
 }
